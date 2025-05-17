@@ -55,6 +55,12 @@ This project sets up a full internal network and static site deployment pipeline
 
 ---
 
+## 🕜 To do list
+
+- Planning to add : 
+    -   backup
+    -   More ideas to come
+
 ## 🗃️ Folders (Not included in repo)
 
 This GitHub repo doesn't contain the full infrastructure (e.g., LXC containers, DNS zones), but it links to the live result and explains the steps.
