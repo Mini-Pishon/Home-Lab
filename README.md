@@ -26,15 +26,7 @@ This project sets up a full internal network and static site deployment pipeline
 
 ## 🗺️ Network Topology
 
-[Internet]
-↓
-[ISP Box] (DMZ)
-↓
-[OPNsense] ↔ VLAN Switch ↔ [Proxmox]
-↳ LXC: Apache (Jekyll)
-↳ LXC: Bind9 DNS
-↳ LXC: Nginx Proxy Manager
-
+<pre> [Internet] ↓ [ISP Box] (DMZ) ↓ [OPNsense] ↓ [VLAN Switch] ↓ [Proxmox] ├── LXC: Apache (Jekyll) ├── LXC: Bind9 DNS └── LXC: Nginx Proxy Manager </pre>
 
 ---
 
@@ -63,4 +55,4 @@ I made an exercice available on the website to reproduce what I did.
 
 ---
 
-> ✨ Built in a weekend from scratch by [Pishon](https://github.com/pishon), with love, VLANs, and dinosaur references.
+> ✨ Built in a weekend from scratch by [Mini-Pishon](https://github.com/Mini-Pishon), with love, VLANs, and dinosaur references.
