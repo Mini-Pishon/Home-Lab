@@ -30,7 +30,10 @@ This project sets up a full internal network and static site deployment pipeline
     [ISP Box] (DMZ) ↓ 
             [OPNsense] ↓ 
             [VLAN Switch] ↓    
-            [Proxmox] ├── LXC: Apache (Jekyll) ├── LXC: Bind9 DNS └── LXC: Nginx Proxy Manager </pre>
+            [Proxmox] 
+            ├── LXC: Apache (Jekyll) 
+            ├── LXC: Bind9 DNS 
+            └── LXC: Nginx Proxy Manager </pre>
 
 ---
 
